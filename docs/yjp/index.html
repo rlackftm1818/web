@@ -18,6 +18,7 @@
         background-color: black;
         font-family: 'Noto Sans KR', sans-serif;
         letter-spacing: -3px;
+        font-size: 16px;
       }
       a {text-decoration: none;}
       a:hover{ text-decoration: none; }
@@ -198,6 +199,7 @@
         .kakaotalk{font-size: 1.3rem;}
         .event-box{font-size: 1.5rem;}
         .text-small{font-size: 1rem;}
+        .panel>p{font-size: 1.4rem;}
       }
       @media only screen and (max-width: 424px) and (min-width: 375px) {
         .content{font-size: 1.3rem;}
@@ -206,8 +208,9 @@
         .kakaotalk{font-size: 1.6rem;}
         .event-box{font-size: 1.7rem;}
         .text-small{font-size: 1.2rem;}
+        .panel>p{font-size: 1.6rem;}
       }
-      @media only screen and (min-width: 425px) {
+      @media only screen and (min-width: 425px) and (max-width: 767px) {
         .content{font-size: 1.3rem;}
         .header-1{font-size: 1.8rem;}
         .red-pill{margin: 0 10%;}
@@ -215,6 +218,7 @@
         .kakaotalk{font-size: 1.8rem;}
         .event-box{font-size: 1.9rem;}
         .text-small{font-size: 1.3rem;}
+        .panel>p{font-size: 1.7rem;}
       }
       @media only screen and (min-width: 768px) {
         .content{font-size: 1.3rem;}
@@ -224,6 +228,7 @@
         .kakaotalk{font-size: 1.8rem;}
         .event-box{font-size: 2.5rem;}
         .text-small{font-size: 1.3rem;}
+        .panel>p{font-size: 2.5rem;}
       }
     </style>
   </head>
@@ -244,7 +249,7 @@
             <fieldset class="event-box mt-4">
               <legend class="title">신규가입 이벤트</legend>
               <p>신규가입시 <span class="text-yellow">1만원</span> 바로지급<br/>
-                <span class="text-dark-orange text-small">단, 가족방 입장후 1만원이상 충전후 사용가능</span>
+                <span class="text-small">단, 가족방 입장후 1만원이상 충전후 사용가능</span>
               </p>
             </fieldset>
             <!-- <fieldset class="event-box mt-4">
@@ -253,7 +258,7 @@
             </fieldset> -->
             <fieldset class="event-box mt-4">
               <legend class="title">가족방 이벤트</legend>
-              <p>유료픽제공, 배당이벤트, 타임이벤트, 개인사비 이벤트</p>
+              <p>유료픽제공, 배당 이벤트,<br/>타임 이벤트, 개인사비 이벤트</p>
             </fieldset>
             <div class="panel">
               <p class="text-white">
